@@ -104,6 +104,7 @@
     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\WaveGenerator.cs" />
     <Compile Include="Assets\Wobble.cs" />
     <None Include="Assets\Obi\Resources\ObiMaterials\FluidColorsOpaque.shader" />
+    <None Include="Assets\NVJOB\Shaders\Nature\Water\Water Shader (simple and fast).shader" />
     <None Include="Assets\Obi\CHANGELOG_fluid.txt" />
     <None Include="Assets\NVJOB\Shaders\Nature\SpeedTree\STCustomCore.cginc" />
     <None Include="Assets\NVJOB\Shaders\Nature\SpeedTree\STCustom.shader" />
@@ -113,6 +114,7 @@
     <None Include="Assets\NVJOB\license_nvjob.txt" />
     <None Include="Assets\Obi\Resources\ObiMaterials\FluidColorsBlend.shader" />
     <None Include="Assets\Obi\Plugins\libOni.bundle\Contents\Resources\CMakeLists.txt" />
+    <None Include="Assets\LiquidShader3.shader" />
     <None Include="Assets\Obi\Resources\ObiMaterials\ParticleShader.shader" />
     <None Include="Assets\Obi\Resources\ObiMaterials\DielectricFluidShader.shader" />
     <None Include="Assets\Obi\Resources\ObiMaterials\ObiParticles.cginc" />
@@ -120,6 +122,7 @@
     <None Include="Assets\NVJOB\Shaders\Specular\Specular (Normalmap, Reflection, Cull Off).shader" />
     <None Include="Assets\Obi\Resources\ObiMaterials\OpaqueFluidShader.shader" />
     <None Include="Assets\Obi\Resources\ObiMaterials\NormalReconstruction.shader" />
+    <None Include="Assets\Test.shader" />
     <None Include="Assets\Obi\Resources\ObiMaterials\SimpleParticleShader.shader" />
     <None Include="Assets\NVJOB\Shaders\Nature\Sky\Sky (Diffuse, Detail, Parallax, Transparent, Nolight, Noshadow, Optimized, Render 500).shader" />
     <None Include="Assets\NVJOB\Shaders\Specular\Specular (Normalmap, Heightmap, Reflection, Cull Off).shader" />
@@ -128,13 +131,16 @@
     <None Include="Assets\Obi\Resources\ObiMaterials\ObiFluids.cginc" />
     <None Include="Assets\Obi\Resources\ObiMaterials\FluidThickness.shader" />
     <None Include="Assets\Obi\Resources\ObiMaterials\LitParticles.shader" />
+    <None Include="Assets\DynamicWater_ReadMe.txt" />
+    <None Include="Assets\Standard.shader" />
     <None Include="Assets\Obi\Resources\ObiMaterials\StandardVertexColors.shader" />
     <None Include="Assets\Obi\Resources\ObiMaterials\ObiEllipsoids.cginc" />
     <None Include="Assets\Obi\Resources\ObiMaterials\DistanceFieldSlice.shader" />
     <None Include="Assets\Obi\Resources\ObiMaterials\ScreenSpaceCurvatureFlow.shader" />
+    <None Include="Assets\LiquidShader2.shader" />
     <None Include="Assets\NVJOB\license_unity.txt" />
     <None Include="Assets\Obi\Sample Scenes\SampleResources\Materials\StandardPerInstanceColor.shader" />
-    <None Include="Assets\NVJOB\Shaders\Nature\Water\Water Shader (simple and fast).shader" />
+    <None Include="Assets\Water Shader (simple and fast).shader" />
     <None Include="Assets\NVJOB\Shaders\Nature\SpeedTree\STBCustom.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/Kyoung/Unity_Private/DentalWater/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -342,6 +348,9 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.9f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicWaterNativeWrapper">
+      <HintPath>E:/Kyoung/Unity_Private/DentalWater/Assets/Plugins/DynamicWaterNativeWrapper.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>E:/Kyoung/Unity_Private/DentalWater/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>

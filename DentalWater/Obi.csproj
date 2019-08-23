@@ -366,6 +366,9 @@
     <Reference Include="PackageManagerAssembly">
       <HintPath>E:/Kyoung/Unity_Private/DentalWater/Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
     </Reference>
+    <Reference Include="DynamicWaterNativeWrapper">
+      <HintPath>E:/Kyoung/Unity_Private/DentalWater/Assets/Plugins/DynamicWaterNativeWrapper.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>E:/Kyoung/Unity_Private/DentalWater/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
